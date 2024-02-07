@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style 
+        include ../static/style.css
+
+block content 
+
+    section#introsection  
+        | WELCOME TO WIT DANCE ACADEMY
+    section#missionsection 
+        h1 OUR MISSION    
+        div.card 
+            h3 DAILY PRACTICE
+            div.card-box 
+                div.card-img
+                    img(src="/static/image/01.png", alt="daily practice")
+                div.card-content 
+                    p We offer you daily practice sessions at hours of your choosing.   
+        div.card 
+            h3 PROVIDE A CERTIFICATE
+            div.card-box 
+                div.card-img
+                    img(src="/static/image/02.png", alt="daily practice")
+                div.card-content 
+                    p We provide you with an accredited certificate.  
+        div.card 
+            h3 EXPERT TEACHERS
+            div.card-box 
+                div.card-img
+                    img(src="/static/image/03.png", alt="daily practice")
+                div.card-content 
+                    p We offer instruction from highly skilled and experienced teachers.          
+    section#sponsorsection
+        h1 OUR SPONSORS 
+        div#sponsors 
+            img(src="/static/image/sp1.png", alt="sponsor image" class="spimage")
+            img(src="/static/image/sp2.png", alt="sponsor image" class="spimage")
+            img(src="/static/image/sp3.png", alt="sponsor image" class="spimage")
+            img(src="/static/image/sp4.png", alt="sponsor image" class="spimage")

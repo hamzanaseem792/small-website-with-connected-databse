@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Pacifico&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+#logo{
+    display: flex;
+    margin: 0 14px;
+}
+#logo img{
+    height: 32px;
+    margin: -14px 13px;
+    padding: 0px 2px;
+
+}
+#navbar{
+    background-color: #a16e5db0;
+    padding: 13px 4px;
+    font-family: "Protest Guerrilla", sans-serif; font-weight: 400; font-style: normal;
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 13px 30px;
+    color: white;
+    font-size: 25px;
+}
+#navbar li a:hover{
+   color: black;
+}
+
+#introsection  {
+    background: center/cover no-repeat url(/static/mq.jpg);
+  height: 525px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccbe3d;
+  font-family: "Anton", sans-serif;
+  font-size: 14px;
+}
+
+#sponsorsection{
+    height: 300px;
+  background-color:#a16e5d78;
+  
+
+}
+#sponsorsection h1{
+  text-align: center;
+  padding-top: 22px;
+  font-family: "ABeeZee", sans-serif;
+  
+
+}
+#missionsection{
+    height: 300px;
+  background-color:whitesmoke;
+
+}
+#missionsection h1{
+    text-align: center;
+    padding-top: 6px;
+    font-family: "ABeeZee", sans-serif;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 20%;
+    margin: 26px 90px;
+    height: 198px;
+    display: inline-block;
+    /* background-color:#a16e5db0 ; */
+}
+.card h3{
+    text-align: center;
+    font-family: "Gamja Flower", sans-serif;
+    /* background-color: burlywood; */
+      
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 150px;
+    padding: 0px 14px;
+    margin: 15px 2px;
+}
+.card-img img{
+    height: inherit;
+
+    
+}
+.card-content{
+    padding: 0 6px;
+}
+#sponsors{
+    height: 103px;
+    max-width: 1000px;
+    margin: 45px auto;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer {
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family: "Protest Guerrilla", sans-serif; font-weight: 400; font-style: normal;
+}

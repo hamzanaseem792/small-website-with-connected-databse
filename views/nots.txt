@@ -1,0 +1,2 @@
+text docoration none property is used to remove lin below the navbar camponent 
+we used list style none to remove dot before the navbar camponent 

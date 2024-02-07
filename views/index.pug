@@ -1,0 +1,52 @@
+doctype html
+html 
+    head
+        title This is the title
+        link(rel='stylesheet', href='../static/style.css') 
+    body 
+        nav#navbar
+            ul 
+                div#logo 
+                    img(src="/static/image/logo.png", alt="website logo")
+                li #[a(href="/") Home]
+                li #[a(href="/") About ]
+                li #[a(href="/") Services ]
+                li #[a(href="/") class info]
+                li #[a(href="/") Contact us]
+        section#introsection  
+            |WELCOME TO WIT DANCE ACADEMY
+        section#missionsection 
+            h1 OUR MISSION    
+            div.card 
+                h3 DAILY PRACTICE
+                div.card-box 
+                    div.card-img
+                        img(src="/static/image/01.png", alt="daily practice")
+                    div.card-content 
+                        p We offer you daily practice sessions at hours of your choosing.   
+            div.card 
+                h3 PROVIDE A CERTIFICATE
+                div.card-box 
+                    div.card-img
+                        img(src="/static/image/02.png", alt="daily practice")
+                    div.card-content 
+                        p We provide you with an accredited certificate.  
+            div.card 
+                h3 EXPERT TEACHERS
+                div.card-box 
+                    div.card-img
+                        img(src="/static/image/03.png", alt="daily practice")
+                    div.card-content 
+                        p We offer instruction from highly skilled and experienced teachers.          
+        section#sponsorsection
+            h1 OUR SPONSORS 
+            div#sponsors 
+                img(src="/static/image/sp1.png", alt="sponsor image" class="spimage")
+                img(src="/static/image/sp2.png", alt="sponsor image" class="spimage")
+                img(src="/static/image/sp3.png", alt="sponsor image" class="spimage")
+                img(src="/static/image/sp4.png", alt="sponsor image" class="spimage")
+        footer#footer 
+            |Copyright 2024 WITDanceAcademy.com,All rights reserved             
+        script 
+            include ../static/index.js    
+
