@@ -2,7 +2,7 @@
   "name": "dance-website",
   "version": "1.0.0",
   "description": "this is a website for dancing ",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     
      "build": "npm install" ,
