@@ -4,7 +4,9 @@
   "description": "this is a website for dancing ",
   "main": "app.js",
   "scripts": {
-    "test": "index.js"
+    
+     "build": "npm install" ,
+     "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
