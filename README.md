@@ -1,0 +1,1 @@
+Welcome to the Dancing Academy Website! This solo project, developed using HTML, CSS, JavaScript, and Pug, showcases the offerings of a dance academy. The site features a sleek, responsive design and includes a contact form that connects to a MongoDB database fo
