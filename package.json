@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     
-     "build": "npm install" ,
+     "build": "npm install && npm install pug-cli; node node_modules/pug-cli/index.js pug/ --out ./public"  ,
      "start": "node index.js"
   },
   "author": "",

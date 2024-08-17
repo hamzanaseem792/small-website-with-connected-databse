@@ -1,0 +1,19 @@
+extends base.pug
+
+block scripts
+    script(src="/static/index.js")
+
+block style
+    style 
+        include ../static/style.css
+        include ../static/index.css
+
+block content
+    .container
+        h1 Log in
+        .box
+            i.fa-regular.fa-envelope
+            input#email(type='email' name='email' placeholder='Enter yoour Email')
+        .box
+            i.fa-solid.fa-lock
+            input#password(type='password' name='password' placeholder='Enter Your Password')

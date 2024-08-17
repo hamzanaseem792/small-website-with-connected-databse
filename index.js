@@ -49,6 +49,9 @@ app.get('/contact',   (req,res)=>{
     res.status(200).render('contact.pug');
 
 })
+
+
+
 app.post('/contact',   (req,res)=>{
     var myData = new contact(req.body);
     myData.save().then(  ()=>{
